@@ -34,42 +34,42 @@
     {
       "id": 1,
       "name": "Ferrari",
-      "logo": "/images/brands/ferrari.png"
+      "logo": "images/brands/ferrari.png"
     },
     {
       "id": 2,
       "name": "Lamborghini",
-      "logo": "/images/brands/lamborghini.png"
+      "logo": "images/brands/lamborghini.png"
     },
     {
       "id": 3,
       "name": "Porsche",
-      "logo": "/images/brands/porsche.png"
+      "logo": "images/brands/porsche.png"
     },
     {
       "id": 4,
       "name": "Aston Martin",
-      "logo": "/images/brands/astonmartin.png"
+      "logo": "images/brands/astonmartin.png"
     },
     {
       "id": 5,
       "name": "Bugatti",
-      "logo": "/images/brands/bugatti.png"
+      "logo": "images/brands/bugatti.png"
     },
     {
       "id": 6,
       "name": "McLaren",
-      "logo": "/images/brands/mclaren.png"
+      "logo": "images/brands/mclaren.png"
     },
     {
       "id": 7,
       "name": "Koenigsegg",
-      "logo": "/images/brands/koenigsegg.png"
+      "logo": "images/brands/koenigsegg.png"
     },
     {
       "id": 8,
       "name": "Mercedes-AMG",
-      "logo": "/images/brands/mercedes.png"
+      "logo": "images/brands/mercedes.png"
     }
   ],
   "cars": [
@@ -78,7 +78,7 @@
       "name": "Ferrari SF90 Stradale",
       "description": "Hypercar hybride de 1000 chevaux, design agressif et technologie de pointe.",
       "price": 420000,
-      "image": "/images/cars/ferrari_sf90.jpg",
+      "image": "images/cars/ferrari_sf90.jpg",
       "brandId": 1,
       "stock": 2,
       "features": [
@@ -92,7 +92,7 @@
       "name": "Lamborghini Huracán EVO",
       "description": "Supercar V10 emblématique avec aérodynamisme optimisé.",
       "price": 280000,
-      "image": "/images/cars/lamborghini_huracan.jpg",
+      "image": "images/cars/lamborghini_huracan.jpg",
       "brandId": 2,
       "stock": 1,
       "features": [
@@ -106,7 +106,7 @@
       "name": "Porsche 911 Turbo S",
       "description": "La légende allemande revisitée, équilibre parfait entre luxe et performance.",
       "price": 220000,
-      "image": "/images/cars/porsche_911_turbo_s.jpg",
+      "image": "images/cars/porsche_911_turbo_s.jpg",
       "brandId": 3,
       "stock": 3,
       "features": [
@@ -120,7 +120,7 @@
       "name": "Aston Martin DBS Superleggera",
       "description": "Coupé britannique raffiné avec moteur V12 biturbo.",
       "price": 310000,
-      "image": "/images/cars/aston_dbs.jpg",
+      "image": "images/cars/aston_dbs.jpg",
       "brandId": 4,
       "stock": 1,
       "features": [
@@ -134,7 +134,7 @@
       "name": "Bugatti Chiron Super Sport",
       "description": "Hypercar française de 1600 chevaux, taillée pour les records.",
       "price": 3500000,
-      "image": "/images/cars/bugatti_chiron_1.jpg",
+      "image": "images/cars/bugatti_chiron_1.jpg",
       "brandId": 5,
       "stock": 1,
       "features": [
@@ -148,7 +148,7 @@
       "name": "McLaren 765LT",
       "description": "Version allégée et extrême de la 720S, dédiée à la performance.",
       "price": 360000,
-      "image": "/images/cars/mclaren_765lt_1.jpg",
+      "image": "images/cars/mclaren_765lt_1.jpg",
       "brandId": 6,
       "stock": 2,
       "features": [
@@ -162,7 +162,7 @@
       "name": "Koenigsegg Jesko",
       "description": "Une hypercar d'ingénierie suédoise repoussant les limites de la physique.",
       "price": 2900000,
-      "image": "/images/cars/jesko_1.jpg",
+      "image": "images/cars/jesko_1.jpg",
       "brandId": 7,
       "stock": 1,
       "features": [
@@ -176,7 +176,7 @@
       "name": "Mercedes-AMG ONE",
       "description": "L'ADN de la Formule 1 dans une voiture homologuée pour la route.",
       "price": 2750000,
-      "image": "/images/cars/amg_one_1.jpg",
+      "image": "images/cars/amg_one_1.jpg",
       "brandId": 8,
       "stock": 1,
       "features": [
@@ -192,7 +192,7 @@
         "title": "La route appartient aux légendes.",
         "subtitle": "Découvrez les plus grandes marques de voitures de sport.",
         "cta": "Voir le catalogue",
-        "image": "/images/banners/hero_luxdrive.jpg"
+        "image": "images/banners/hero_luxdrive.jpg"
       },
       "stats": [
         {
@@ -248,9 +248,9 @@
         "title": "Ferrari SF90 Stradale",
         "introduction": "La SF90 Stradale est la première Ferrari hybride rechargeable. Elle combine un moteur V8 biturbo et trois moteurs électriques pour une puissance cumulée de 1000 chevaux.",
         "gallery": [
-          "/images/cars/ferrari_sf90_1.jpg",
-          "/images/cars/ferrari_sf90_2.jpg",
-          "/images/cars/ferrari_sf90_3.jpg"
+          "images/cars/ferrari_sf90_1.jpg",
+          "images/cars/ferrari_sf90_2.jpg",
+          "images/cars/ferrari_sf90_3.jpg"
         ],
         "specs": {
           "Puissance": "1000 ch",
@@ -266,8 +266,8 @@
         "title": "Lamborghini Huracán EVO",
         "introduction": "Une évolution féroce de la Huracán, l’EVO intègre les dernières technologies de la marque avec un V10 atmosphérique et une aérodynamique réactive.",
         "gallery": [
-          "/images/cars/huracan_evo_1.jpg",
-          "/images/cars/huracan_evo_2.jpg"
+          "images/cars/huracan_evo_1.jpg",
+          "images/cars/huracan_evo_2.jpg"
         ],
         "specs": {
           "Puissance": "640 ch",
@@ -283,8 +283,8 @@
         "title": "Porsche 911 Turbo S",
         "introduction": "La Turbo S est le fleuron de la gamme 911. Équilibrée, rapide, luxueuse, elle brille par son efficacité et sa polyvalence.",
         "gallery": [
-          "/images/cars/porsche_911_1.jpg",
-          "/images/cars/porsche_911_2.jpg"
+          "images/cars/porsche_911_1.jpg",
+          "images/cars/porsche_911_2.jpg"
         ],
         "specs": {
           "Puissance": "650 ch",
@@ -300,8 +300,8 @@
         "title": "Aston Martin DBS Superleggera",
         "introduction": "Le grand tourisme britannique avec une touche bestiale. Le DBS Superleggera associe raffinement et puissance brute.",
         "gallery": [
-          "/images/cars/aston_dbs_1.jpg",
-          "/images/cars/aston_dbs_2.jpg"
+          "images/cars/aston_dbs_1.jpg",
+          "images/cars/aston_dbs_2.jpg"
         ],
         "specs": {
           "Puissance": "715 ch",
@@ -317,8 +317,8 @@
         "title": "Bugatti Chiron Super Sport",
         "introduction": "La Chiron Super Sport atteint des sommets de puissance et de vitesse, une prouesse d’ingénierie française.",
         "gallery": [
-          "/images/cars/bugatti_chiron_1.jpg",
-          "/images/cars/bugatti_chiron_2.jpg"
+          "images/cars/bugatti_chiron_1.jpg",
+          "images/cars/bugatti_chiron_2.jpg"
         ],
         "specs": {
           "Puissance": "1600 ch",
@@ -334,8 +334,8 @@
         "title": "McLaren 765LT",
         "introduction": "Une version allégée et radicale de la 720S, conçue pour la piste.",
         "gallery": [
-          "/images/cars/mclaren_765lt_1.jpg",
-          "/images/cars/mclaren_765lt_2.jpg"
+          "images/cars/mclaren_765lt_1.jpg",
+          "images/cars/mclaren_765lt_2.jpg"
         ],
         "specs": {
           "Puissance": "765 ch",
@@ -351,8 +351,8 @@
         "title": "Koenigsegg Jesko",
         "introduction": "Une hypercar suédoise d’avant-garde, alliant technologie extrême et design unique.",
         "gallery": [
-          "/images/cars/jesko_1.jpg",
-          "/images/cars/jesko_2.jpg"
+          "images/cars/jesko_1.jpg",
+          "images/cars/jesko_2.jpg"
         ],
         "specs": {
           "Puissance": "1600 ch (E85)",
@@ -368,8 +368,8 @@
         "title": "Mercedes-AMG ONE",
         "introduction": "Issue de la Formule 1, la ONE est une hypercar hybride aux performances inégalées.",
         "gallery": [
-          "/images/cars/amg_one_1.jpg",
-          "/images/cars/amg_one_2.jpg"
+          "images/cars/amg_one_1.jpg",
+          "images/cars/amg_one_2.jpg"
         ],
         "specs": {
           "Puissance": "1063 ch",

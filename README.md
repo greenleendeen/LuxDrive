@@ -14,7 +14,7 @@ Ce projet est site vitrine utilisant **Bootstrap, HTML, CSS, JavaScript, donnée
 - JavaScript ( Fetch )
 - Bootstrap 5
 
-## 📦 Installation
-1. Clonez le repo :
+##  Installation
+1. Cloner le repo :
    ```bash
    git clone https://github.com/greenleendeen/LuxDrive.git
