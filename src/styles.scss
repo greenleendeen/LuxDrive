@@ -1,0 +1,24 @@
+/* Modifier la couleur primaire avant d'importer les composants*/
+$primary: rgb(238, 238, 227)
+;
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+/* 1. Importer Bootstrap depuis node_modules*/
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
+@import "../node_modules/bootstrap/scss/mixins";
+
+/* 2. Activer uniquement les composants nécessaires*/
+@import "../node_modules/bootstrap/scss/root"; 
+@import "../node_modules/bootstrap/scss/reboot"; 
+@import "../node_modules/bootstrap/scss/buttons"; 
+@import "../node_modules/bootstrap/scss/grid"; 
+@import "../node_modules/bootstrap/scss/navbar"; 
+@import "../node_modules/bootstrap/scss/_accordion.scss";
+
+/* 3. Ajouter ton propre style*/
+
+body {
+    background-color: $primary
+}
+

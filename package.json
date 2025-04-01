@@ -1,0 +1,16 @@
+{
+  "name": "luxdrive",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+  "build-css": "sass src/styles.scss dist/styles.css --watch"
+},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "sass": "^1.85.1"
+  }
+}

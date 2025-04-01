@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Accueil LuxDrive</title>
+  <link rel="stylesheet" href="../dist/styles.css">
+  <link rel="stylesheet" href="/style.css">
+</head>
+
+<body data-page="catalogue" class="bg-blue">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="/index.html">LuxDrive</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="/index.html">Accueil</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/pages/catalogue.html">Catalogue</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/pages/constructeurs.html">Constructeurs</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Conteneur pour les voitures -->
+  <div class="container mt-5">
+    <h1 class="text-center text-light">Catalogue des voitures</h1>
+    <div id="carsContainer" class="row mt-4">
+      <!-- card -->
+    </div>
+  </div>
+
+  <!-- Modal Détails Voiture -->
+  <div class="modal fade" id="detailsModal" tabindex="-1" aria-labelledby="modalTitle" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="modalTitle">Titre de la voiture</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fermer"></button>
+        </div>
+        <div class="modal-body" id="modalBody">
+          <!-- Les détails de la voiture seront insérés ici -->
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--footer-->
+  <footer class="bg-dark text-light py-4">
+    <!-- Section: Copyright -->
+    <section class="p-3 pt-0">
+      <div class="row d-flex align-items-center">
+        <!-- Grid column -->
+        <div class="col-md-7 col-lg-8 text-center text-md-start">
+          <!-- Copyright -->
+          <div class="p-3">
+            <p class="mb-0">&copy; 2024 LuxDrive. Tous droits réservés.</p>
+          </div>
+
+        </div>
+        <div class="col-md-5 col-lg-4 ml-lg-0 text-center text-md-end">
+          <a href="#" class="text-light me-3 btn btn-outline-light btn-floating"><i class='bx bxl-facebook '></i></a>
+          <a href="#" class="text-light me-3 btn btn-outline-light btn-floating"><i
+              class='bx bxl-pinterest-alt'></i></a>
+          <a href="#" class="text-light me-3 btn btn-outline-light btn-floating "><i class='bx bxl-instagram '></i></a>
+        </div>
+      </div>
+      <hr class="my-3">
+      <div class="container text-center ">
+        <div class="">
+          <div class="d-flex justify-content-end">
+            <a href="#"> Mentions légales </a> | <a href="#"> CGU </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </footer>
+
+  <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js" defer></script>
+  <script src="../js/script.js" defer></script>
+  <script src="../js/catalogue.js" defer></script>
+  <script src="../js/modal.js" defer></script>
+
+
+
+</body>
+
+</html>

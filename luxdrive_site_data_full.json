@@ -1,0 +1,424 @@
+{
+  "siteInfo": {
+    "name": "LuxDrive",
+    "description": "Vente exclusive de voitures de sport de luxe — performance, design et prestige.",
+    "currency": "EUR",
+    "language": "fr",
+    "contactEmail": "info@luxdrive.fr",
+    "phone": "+33 4 72 88 99 00"
+  },
+  "pages": [
+    "Accueil",
+    "Catalogue",
+    "Constructeurs"
+  ],
+  "navigation": [
+    {
+      "label": "Accueil",
+      "url": "/"
+    },
+    {
+      "label": "Catalogue",
+      "url": "/catalogue"
+    },
+    {
+      "label": "Constructeurs",
+      "url": "/constructeurs"
+    },
+    {
+      "label": "Contact",
+      "url": "/contact"
+    }
+  ],
+  "brands": [
+    {
+      "id": 1,
+      "name": "Ferrari",
+      "logo": "/images/brands/ferrari.png"
+    },
+    {
+      "id": 2,
+      "name": "Lamborghini",
+      "logo": "/images/brands/lamborghini.png"
+    },
+    {
+      "id": 3,
+      "name": "Porsche",
+      "logo": "/images/brands/porsche.png"
+    },
+    {
+      "id": 4,
+      "name": "Aston Martin",
+      "logo": "/images/brands/astonmartin.png"
+    },
+    {
+      "id": 5,
+      "name": "Bugatti",
+      "logo": "/images/brands/bugatti.png"
+    },
+    {
+      "id": 6,
+      "name": "McLaren",
+      "logo": "/images/brands/mclaren.png"
+    },
+    {
+      "id": 7,
+      "name": "Koenigsegg",
+      "logo": "/images/brands/koenigsegg.png"
+    },
+    {
+      "id": 8,
+      "name": "Mercedes-AMG",
+      "logo": "/images/brands/mercedes.png"
+    }
+  ],
+  "cars": [
+    {
+      "id": 101,
+      "name": "Ferrari SF90 Stradale",
+      "description": "Hypercar hybride de 1000 chevaux, design agressif et technologie de pointe.",
+      "price": 420000,
+      "image": "/images/cars/ferrari_sf90.jpg",
+      "brandId": 1,
+      "stock": 2,
+      "features": [
+        "Hybride",
+        "Vitesse max 340km/h",
+        "0-100 km/h en 2.5s"
+      ]
+    },
+    {
+      "id": 102,
+      "name": "Lamborghini Huracán EVO",
+      "description": "Supercar V10 emblématique avec aérodynamisme optimisé.",
+      "price": 280000,
+      "image": "/images/cars/lamborghini_huracan.jpg",
+      "brandId": 2,
+      "stock": 1,
+      "features": [
+        "V10 640ch",
+        "4 roues motrices",
+        "Launch Control"
+      ]
+    },
+    {
+      "id": 103,
+      "name": "Porsche 911 Turbo S",
+      "description": "La légende allemande revisitée, équilibre parfait entre luxe et performance.",
+      "price": 220000,
+      "image": "/images/cars/porsche_911_turbo_s.jpg",
+      "brandId": 3,
+      "stock": 3,
+      "features": [
+        "Turbo",
+        "0-100 km/h en 2.7s",
+        "Intérieur cuir haut de gamme"
+      ]
+    },
+    {
+      "id": 104,
+      "name": "Aston Martin DBS Superleggera",
+      "description": "Coupé britannique raffiné avec moteur V12 biturbo.",
+      "price": 310000,
+      "image": "/images/cars/aston_dbs.jpg",
+      "brandId": 4,
+      "stock": 1,
+      "features": [
+        "V12 715ch",
+        "Luxe absolu",
+        "Toit carbone"
+      ]
+    },
+    {
+      "id": 105,
+      "name": "Bugatti Chiron Super Sport",
+      "description": "Hypercar française de 1600 chevaux, taillée pour les records.",
+      "price": 3500000,
+      "image": "/images/cars/bugatti_chiron_1.jpg",
+      "brandId": 5,
+      "stock": 1,
+      "features": [
+        "W16",
+        "440 km/h",
+        "Edition limitée"
+      ]
+    },
+    {
+      "id": 106,
+      "name": "McLaren 765LT",
+      "description": "Version allégée et extrême de la 720S, dédiée à la performance.",
+      "price": 360000,
+      "image": "/images/cars/mclaren_765lt_1.jpg",
+      "brandId": 6,
+      "stock": 2,
+      "features": [
+        "765ch",
+        "carbone",
+        "piste"
+      ]
+    },
+    {
+      "id": 107,
+      "name": "Koenigsegg Jesko",
+      "description": "Une hypercar d'ingénierie suédoise repoussant les limites de la physique.",
+      "price": 2900000,
+      "image": "/images/cars/jesko_1.jpg",
+      "brandId": 7,
+      "stock": 1,
+      "features": [
+        "1600ch",
+        "technologie LST",
+        "ultra rare"
+      ]
+    },
+    {
+      "id": 108,
+      "name": "Mercedes-AMG ONE",
+      "description": "L'ADN de la Formule 1 dans une voiture homologuée pour la route.",
+      "price": 2750000,
+      "image": "/images/cars/amg_one_1.jpg",
+      "brandId": 8,
+      "stock": 1,
+      "features": [
+        "Hybride F1",
+        "1063ch",
+        "V6 turbo"
+      ]
+    }
+  ],
+  "pagesContent": {
+    "Accueil": {
+      "heroBanner": {
+        "title": "La route appartient aux légendes.",
+        "subtitle": "Découvrez les plus grandes marques de voitures de sport.",
+        "cta": "Voir le catalogue",
+        "image": "/images/banners/hero_luxdrive.jpg"
+      },
+      "stats": [
+        {
+          "label": "Chevaux cumulés",
+          "value": "2995ch"
+        },
+        {
+          "label": "Vitesse max combinée",
+          "value": "1340 km/h"
+        },
+        {
+          "label": "Clients satisfaits",
+          "value": "142+"
+        }
+      ]
+    },
+    "Catalogue": {
+      "filters": {
+        "marques": [
+          "Ferrari",
+          "Lamborghini",
+          "Porsche",
+          "Aston Martin"
+        ],
+        "prix": {
+          "min": 200000,
+          "max": 450000
+        },
+        "moteur": [
+          "V8",
+          "V10",
+          "V12",
+          "Hybride"
+        ]
+      },
+      "tri": [
+        "Prix croissant",
+        "Puissance",
+        "Nouveauté"
+      ]
+    },
+    "Constructeurs": {
+      "intro": "Nous sélectionnons les marques les plus prestigieuses et leurs modèles les plus emblématiques. Chaque voiture est inspectée, testée et garantie.",
+      "marques": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    "carDetails": {
+      "ferrari-sf90-stradale": {
+        "title": "Ferrari SF90 Stradale",
+        "introduction": "La SF90 Stradale est la première Ferrari hybride rechargeable. Elle combine un moteur V8 biturbo et trois moteurs électriques pour une puissance cumulée de 1000 chevaux.",
+        "gallery": [
+          "/images/cars/ferrari_sf90_1.jpg",
+          "/images/cars/ferrari_sf90_2.jpg",
+          "/images/cars/ferrari_sf90_3.jpg"
+        ],
+        "specs": {
+          "Puissance": "1000 ch",
+          "Moteur": "V8 + 3 moteurs électriques",
+          "0-100 km/h": "2.5s",
+          "Vitesse max": "340 km/h",
+          "Transmission": "Intégrale",
+          "Poids": "1570 kg"
+        },
+        "descriptionLongue": "Dotée d'une aérodynamique active et d'une interface de conduite entièrement numérique, la SF90 est conçue pour repousser les limites sur circuit tout en restant utilisable sur route ouverte."
+      },
+      "lamborghini-huracan-evo": {
+        "title": "Lamborghini Huracán EVO",
+        "introduction": "Une évolution féroce de la Huracán, l’EVO intègre les dernières technologies de la marque avec un V10 atmosphérique et une aérodynamique réactive.",
+        "gallery": [
+          "/images/cars/huracan_evo_1.jpg",
+          "/images/cars/huracan_evo_2.jpg"
+        ],
+        "specs": {
+          "Puissance": "640 ch",
+          "Moteur": "V10 5.2L atmosphérique",
+          "0-100 km/h": "2.9s",
+          "Vitesse max": "325 km/h",
+          "Transmission": "Intégrale",
+          "Poids": "1422 kg"
+        },
+        "descriptionLongue": "L’Huracán EVO propose un mode de conduite LDVI (Lamborghini Dinamica Veicolo Integrata) qui anticipe les mouvements du conducteur pour une réactivité maximale."
+      },
+      "porsche-911-turbo-s": {
+        "title": "Porsche 911 Turbo S",
+        "introduction": "La Turbo S est le fleuron de la gamme 911. Équilibrée, rapide, luxueuse, elle brille par son efficacité et sa polyvalence.",
+        "gallery": [
+          "/images/cars/porsche_911_1.jpg",
+          "/images/cars/porsche_911_2.jpg"
+        ],
+        "specs": {
+          "Puissance": "650 ch",
+          "Moteur": "Flat-6 3.8L biturbo",
+          "0-100 km/h": "2.7s",
+          "Vitesse max": "330 km/h",
+          "Transmission": "Intégrale",
+          "Poids": "1640 kg"
+        },
+        "descriptionLongue": "Le châssis adaptatif, les 4 roues directrices et le confort intérieur en font un choix idéal pour un usage quotidien... très rapide."
+      },
+      "aston-martin-dbs": {
+        "title": "Aston Martin DBS Superleggera",
+        "introduction": "Le grand tourisme britannique avec une touche bestiale. Le DBS Superleggera associe raffinement et puissance brute.",
+        "gallery": [
+          "/images/cars/aston_dbs_1.jpg",
+          "/images/cars/aston_dbs_2.jpg"
+        ],
+        "specs": {
+          "Puissance": "715 ch",
+          "Moteur": "V12 5.2L biturbo",
+          "0-100 km/h": "3.4s",
+          "Vitesse max": "340 km/h",
+          "Transmission": "Propulsion",
+          "Poids": "1693 kg"
+        },
+        "descriptionLongue": "Conçue pour le grand tourisme, elle offre un habitacle luxueux, un couple titanesque et un style inimitable digne des films de James Bond."
+      },
+      "bugatti-chiron-super-sport": {
+        "title": "Bugatti Chiron Super Sport",
+        "introduction": "La Chiron Super Sport atteint des sommets de puissance et de vitesse, une prouesse d’ingénierie française.",
+        "gallery": [
+          "/images/cars/bugatti_chiron_1.jpg",
+          "/images/cars/bugatti_chiron_2.jpg"
+        ],
+        "specs": {
+          "Puissance": "1600 ch",
+          "Moteur": "W16 quad-turbo",
+          "0-100 km/h": "2.4s",
+          "Vitesse max": "440 km/h",
+          "Transmission": "Intégrale",
+          "Poids": "1977 kg"
+        },
+        "descriptionLongue": "Produite en édition très limitée, la Chiron Super Sport est un chef-d'œuvre de technologie et de vitesse, avec une tenue de route surprenante pour un véhicule aussi puissant."
+      },
+      "mclaren-765lt": {
+        "title": "McLaren 765LT",
+        "introduction": "Une version allégée et radicale de la 720S, conçue pour la piste.",
+        "gallery": [
+          "/images/cars/mclaren_765lt_1.jpg",
+          "/images/cars/mclaren_765lt_2.jpg"
+        ],
+        "specs": {
+          "Puissance": "765 ch",
+          "Moteur": "V8 biturbo 4.0L",
+          "0-100 km/h": "2.8s",
+          "Vitesse max": "330 km/h",
+          "Transmission": "Propulsion",
+          "Poids": "1339 kg"
+        },
+        "descriptionLongue": "Avec un échappement en titane, des matériaux allégés et une aérodynamique retravaillée, la 765LT est une arme absolue sur circuit tout en restant homologuée route."
+      },
+      "koenigsegg-jesko": {
+        "title": "Koenigsegg Jesko",
+        "introduction": "Une hypercar suédoise d’avant-garde, alliant technologie extrême et design unique.",
+        "gallery": [
+          "/images/cars/jesko_1.jpg",
+          "/images/cars/jesko_2.jpg"
+        ],
+        "specs": {
+          "Puissance": "1600 ch (E85)",
+          "Moteur": "V8 biturbo 5.0L",
+          "0-100 km/h": "2.5s",
+          "Vitesse max": "estimée à 480+ km/h",
+          "Transmission": "Propulsion à boîte robotisée 9 vitesses",
+          "Poids": "1400 kg"
+        },
+        "descriptionLongue": "Le Jesko repousse les limites du possible avec sa transmission unique LST (Light Speed Transmission) et ses capacités aérodynamiques réglables."
+      },
+      "mercedes-amg-one": {
+        "title": "Mercedes-AMG ONE",
+        "introduction": "Issue de la Formule 1, la ONE est une hypercar hybride aux performances inégalées.",
+        "gallery": [
+          "/images/cars/amg_one_1.jpg",
+          "/images/cars/amg_one_2.jpg"
+        ],
+        "specs": {
+          "Puissance": "1063 ch",
+          "Moteur": "V6 hybride 1.6L + 4 moteurs électriques",
+          "0-100 km/h": "2.9s",
+          "Vitesse max": "352 km/h",
+          "Transmission": "Intégrale",
+          "Poids": "1695 kg"
+        },
+        "descriptionLongue": "Avec son moteur directement dérivé de la F1, la Mercedes-AMG ONE est une révolution technologique alliant efficacité énergétique et sensations brutes."
+      }
+    }
+  },
+  "testimonials": [
+    {
+      "name": "Alex M.",
+      "note": 5,
+      "message": "La SF90 est un monstre. Merci LuxDrive !"
+    },
+    {
+      "name": "Julien P.",
+      "note": 5,
+      "message": "Livraison rapide et service ultra pro."
+    },
+    {
+      "name": "Sophie R.",
+      "note": 4,
+      "message": "Expérience fluide, showroom incroyable !"
+    }
+  ],
+  "footer": {
+    "links": [
+      {
+        "label": "Mentions légales",
+        "url": "/mentions"
+      },
+      {
+        "label": "Conditions de vente",
+        "url": "/cgv"
+      },
+      {
+        "label": "Confidentialité",
+        "url": "/confidentialite"
+      }
+    ],
+    "socials": {
+      "instagram": "https://instagram.com/luxdrive",
+      "youtube": "https://youtube.com/luxdrive",
+      "twitter": "https://twitter.com/luxdrive"
+    }
+  }
+}
