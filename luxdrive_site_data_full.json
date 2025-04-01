@@ -78,7 +78,7 @@
       "name": "Ferrari SF90 Stradale",
       "description": "Hypercar hybride de 1000 chevaux, design agressif et technologie de pointe.",
       "price": 420000,
-      "image": "images/cars/ferrari_sf90.jpg",
+      "image": "/images/cars/ferrari_sf90.jpg",
       "brandId": 1,
       "stock": 2,
       "features": [
@@ -92,7 +92,7 @@
       "name": "Lamborghini Huracán EVO",
       "description": "Supercar V10 emblématique avec aérodynamisme optimisé.",
       "price": 280000,
-      "image": "images/cars/lamborghini_huracan.jpg",
+      "image": "/images/cars/lamborghini_huracan.jpg",
       "brandId": 2,
       "stock": 1,
       "features": [
@@ -106,7 +106,7 @@
       "name": "Porsche 911 Turbo S",
       "description": "La légende allemande revisitée, équilibre parfait entre luxe et performance.",
       "price": 220000,
-      "image": "images/cars/porsche_911_turbo_s.jpg",
+      "image": "/images/cars/porsche_911_turbo_s.jpg",
       "brandId": 3,
       "stock": 3,
       "features": [
@@ -120,7 +120,7 @@
       "name": "Aston Martin DBS Superleggera",
       "description": "Coupé britannique raffiné avec moteur V12 biturbo.",
       "price": 310000,
-      "image": "images/cars/aston_dbs.jpg",
+      "image": "/images/cars/aston_dbs.jpg",
       "brandId": 4,
       "stock": 1,
       "features": [
@@ -134,7 +134,7 @@
       "name": "Bugatti Chiron Super Sport",
       "description": "Hypercar française de 1600 chevaux, taillée pour les records.",
       "price": 3500000,
-      "image": "images/cars/bugatti_chiron_1.jpg",
+      "image": "/images/cars/bugatti_chiron_1.jpg",
       "brandId": 5,
       "stock": 1,
       "features": [
@@ -148,7 +148,7 @@
       "name": "McLaren 765LT",
       "description": "Version allégée et extrême de la 720S, dédiée à la performance.",
       "price": 360000,
-      "image": "images/cars/mclaren_765lt_1.jpg",
+      "image": "/images/cars/mclaren_765lt_1.jpg",
       "brandId": 6,
       "stock": 2,
       "features": [
@@ -162,7 +162,7 @@
       "name": "Koenigsegg Jesko",
       "description": "Une hypercar d'ingénierie suédoise repoussant les limites de la physique.",
       "price": 2900000,
-      "image": "images/cars/jesko_1.jpg",
+      "image": "/images/cars/jesko_1.jpg",
       "brandId": 7,
       "stock": 1,
       "features": [
@@ -176,7 +176,7 @@
       "name": "Mercedes-AMG ONE",
       "description": "L'ADN de la Formule 1 dans une voiture homologuée pour la route.",
       "price": 2750000,
-      "image": "images/cars/amg_one_1.jpg",
+      "image": "/images/cars/amg_one_1.jpg",
       "brandId": 8,
       "stock": 1,
       "features": [
@@ -192,7 +192,7 @@
         "title": "La route appartient aux légendes.",
         "subtitle": "Découvrez les plus grandes marques de voitures de sport.",
         "cta": "Voir le catalogue",
-        "image": "images/banners/hero_luxdrive.jpg"
+        "image": "/images/banners/hero_luxdrive.jpg"
       },
       "stats": [
         {
