@@ -8,6 +8,8 @@ Ce projet est site vitrine utilisant **Bootstrap, HTML, CSS, JavaScript, donnée
 ![Aperçu du projet](/images/screenshots/luxDrive-catalogue.png), 
 ![Aperçu du projet](/images/screenshots/LuxDrive-Modal.png)
 
+## [Voir le site en ligne:](https://greenleendeen.github.io/LuxDrive/)
+
 ## 🛠 Technologies utilisées
 - HTML5
 - CSS3 (Flexbox, Grid)
