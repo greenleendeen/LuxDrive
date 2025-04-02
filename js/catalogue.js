@@ -30,7 +30,7 @@ function afficherCatalogue(data) {
                     <h5 class="card-title">${car.name}</h5>
                     <p class="card-text"><strong>Marque :</strong> ${brandName}</p>
                     <p class="card-text"><strong>Prix :</strong> ${car.price.toLocaleString()} €</p>
-                    <button class="btn btn-primary voir-details" data-id="${car.id}">Voir le détail</button>
+                    <button class="btn btn-primary text-light voir-details" data-id="${car.id}">Voir le détail</button>
                 </div>
             </div>
         `;
