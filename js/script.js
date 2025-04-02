@@ -1,4 +1,3 @@
-alert("Le script JS est bien exécuté !");
 console.log(" test");
 // Charger le fichier JSON
 async function loadJSON() {
