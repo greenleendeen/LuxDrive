@@ -65,6 +65,10 @@ console.log("Site Info chargé :", siteInfo);
         <p><a href="mailto:${siteInfo.contactEmail}">${siteInfo.contactEmail}</a></p>
         <p><a href="tel:${siteInfo.phone}">${siteInfo.phone}</a></p>
         </div>
+                <div class="col-md-4">
+        <p><a href="mailto:${siteInfo.currency}">${siteInfo.currency}</a></p>
+        <p><a href="tel:${siteInfo.language}">${siteInfo.language}</a></p>
+        </div>
        
 `;
      

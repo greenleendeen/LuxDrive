@@ -137,6 +137,16 @@ footer .btn {
 
 }
 
+a {
+    color: inherit; /* Hérite la couleur du texte du parent */
+    text-decoration: none; 
+}
+
+footer a {
+    color: white; 
+    text-decoration: none;
+}
+
 /**media */
 @media (max-width: 768px) {
     h1{
