@@ -10,6 +10,8 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 });
 
+
+
 function afficherDetails(carId) {
     console.log("Détails demandés pour la voiture ID :", carId); // Debugging
 
